@@ -33,9 +33,9 @@ app.get('/test', (req, res) => {
   res.send('Server is working!');
 });
 
-app.post('/api/auth/login', (req, res) => {
+/*app.post('/api/auth/login', (req, res) => {
     res.send('Login route working');
-});
+});*/
 
 
 
