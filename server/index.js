@@ -16,7 +16,7 @@ import  connectToDatabase  from './db/db.js';
 connectToDatabase()
 const app = express()
 app.use(cors({
-  origin: "https://mern-stack-project-frontend-ten.vercel.app/",
+  origin: "https://mern-stack-project-frontend-ten.vercel.app",
   credentials: true
 }))
 app.use(express.json())
