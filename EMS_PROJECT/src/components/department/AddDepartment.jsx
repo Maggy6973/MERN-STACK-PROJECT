@@ -21,7 +21,7 @@ const AddDepartment = () => {
     const handleSubmit = async (e) => {
         e.preventDefault()
         try{
-             const response = await axios.post('http://localhost:4000/api/department/add', department, {
+             const response = await axios.post('https://mern-stack-project-backend-psi.vercel.app/api/department/add', department, {
                 headers:{
                     "Authorization": `Bearer ${localStorage.getItem('token')}`
                 }

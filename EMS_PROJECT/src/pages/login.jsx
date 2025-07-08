@@ -16,7 +16,7 @@ const Login= () => {
         e.preventDefault();
        
         try{
-            const response = await axios.post('http://localhost:4000/api/auth/login', {
+            const response = await axios.post('https://mern-stack-project-backend-psi.vercel.app/api/auth/login', {
                 email,
                 password
             });

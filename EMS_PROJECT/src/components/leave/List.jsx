@@ -14,7 +14,7 @@ const List = () => {
 
     const fetchLeaves = async() =>{
         try{
-            const response = await axios.get(`http://localhost:4000/api/leave/${id}`, {
+            const response = await axios.get(`https://mern-stack-project-backend-psi.vercel.app/api/leave/${id}`, {
                 headers: {
                     Authorization: `Bearer ${localStorage.getItem('token')}`
                 },

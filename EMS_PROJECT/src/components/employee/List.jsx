@@ -14,7 +14,7 @@ const List = () => {
   useEffect(() => {
     const fetchEmployees = async() =>{
       try{
-        const response = await axios.get('http://localhost:4000/api/employee/get-all', {
+        const response = await axios.get('https://mern-stack-project-backend-psi.vercel.app/api/employee/get-all', {
           headers: {
             "Authorization": `Bearer ${localStorage.getItem('token')}`
           }
@@ -28,7 +28,7 @@ const List = () => {
               dep_name: emp.department?.dep_name || "",
               name: emp.userId?.name || "",
               dob: new Date(emp.dob).toLocaleDateString(),
-              profileImage: <img width={40} className='rounded-full' src={`http://localhost:4000/${emp.userId?.profileImage || "default.png"}`} />,
+              profileImage: <img width={40} className='rounded-full' src={`https://mern-stack-project-backend-psi.vercel.app/${emp.userId?.profileImage || "default.png"}`} />,
               action:(<EmployeeButtons _id={emp._id} />)
             }
            ))

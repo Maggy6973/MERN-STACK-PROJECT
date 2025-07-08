@@ -14,7 +14,7 @@ const View = () => {
 
    const fetchSalaries = async() =>{
     try{
-        const response = await axios.get(`http://localhost:4000/api/salary/${id}`, {
+        const response = await axios.get(`https://mern-stack-project-backend-psi.vercel.app/api/salary/${id}`, {
             headers: {
                 "Authorization": `Bearer ${localStorage.getItem('token')}`
             },

@@ -16,7 +16,7 @@ const DepartmentList = () => {
 
   const fetchDepartments = async() =>{
       try{
-        const response = await axios.get('http://localhost:4000/api/department/get-all', {
+        const response = await axios.get('https://mern-stack-project-backend-psi.vercel.app/api/department/get-all', {
           headers: {
             "Authorization": `Bearer ${localStorage.getItem('token')}`
           }
