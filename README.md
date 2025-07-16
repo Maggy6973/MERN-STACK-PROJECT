@@ -51,12 +51,3 @@ https://www.loom.com/share/6b6fcb78e9964a5cba77b8e1e1e713c9?sid=a9c27532-2c74-49
 
 
 
-7. **Start the frontend application**
-   ```bash
-   npm run dev
-   ```
-
-8. **Access the application**
-   - Frontend: [http://localhost:3000](http://localhost:3000)
-   - Backend: [http://localhost:4000](http://localhost:4000)
-
