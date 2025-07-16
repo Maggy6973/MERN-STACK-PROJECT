@@ -46,7 +46,7 @@ https://mern-stack-project-backend-psi.vercel.app/
 
 
 
-## MY 5 MIN VIDEO DEMONSTRATION OF MY APPLICATION IN SERVICE 
+## MY 5 MIN LOOM VIDEO DEMONSTRATION OF MY APPLICATION IN SERVICE 
 https://www.loom.com/share/6b6fcb78e9964a5cba77b8e1e1e713c9?sid=a9c27532-2c74-499e-9fe5-d8ea083ab0ab
 
 ## MY 5 MIN VIDEO PROJECT PRESENTATION LINK
